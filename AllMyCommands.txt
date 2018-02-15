@@ -1,0 +1,43 @@
+git config --global user.name farahmed97
+git config --global user.email farah_ahmed1997@yahoo.com
+
+git clone https://github.com/farahmed97/1stIndividualRepository.git
+
+git add First.txt
+git commit -m "create first file"
+git add First.txt
+git add Second.txt
+git commit -m "create second file"
+git add Third.txt
+git commit -m "add third file"
+git rm Third.txt
+git commit -m "delete third file"
+git log
+ls
+git add First.txt
+git add First.txt
+git add First.txt
+git status
+git commit -m "added first file"
+git add Second.txt
+git commit -m "added second file"
+git add Third.txt
+git commit -m "added third file"
+git status
+git rm Second.txt
+git commit -m "deleted second file"
+git log
+git push origin master
+git revert -n ec399e5e4a99ae57f335afd37e7a56282c61166c
+git commit -m "restored deleted file"
+git remote add origin https://github.com/farahmed97/1stIndividualRepository.git
+git remote -v
+git push origin master
+history
+git branch ReadMe
+git branch
+git checkout ReadMe
+git add README.md
+git commit -m "added readme.md file"
+git checkout master
+git merge ReadMe
